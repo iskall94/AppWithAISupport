@@ -22,7 +22,7 @@ namespace AppWithAISupport
 
             while(true)
             {
-                int MenuChoice = mainMenu.Run($"--- Välkommen till Quiz Appen ---\nNuvarande ämne: {quizTopic}");
+                int MenuChoice = mainMenu.Run($"--- Välkommen till Quiz Appen ---\nNuvarande ämne: {quizTopic}\nAnvänd piltangenterna: (Upp/Ner) för att navigera.");
 
                 switch (MenuChoice)
                 {
