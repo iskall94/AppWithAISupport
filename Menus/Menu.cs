@@ -11,6 +11,9 @@
             MenuIndex = 0;
         }
 
+        // public int Run() were definitely inspired with AI help because I have not personally done a menu in terminal before
+        // It is reused elsewhere in the program to create the actual quiz and topic which helped alot.
+
         /// <summary>
         /// The core part of the menu, where it lets user choose an option in a list depending on its selected index.
         /// </summary>
@@ -50,6 +53,8 @@
                 }
             }
         }
+
+        // The DisplayMenu() also was also inspired by AI, showing how to highlight certain indexes to create the menu
 
         /// <summary>
         /// DisplayMenu basically prints out the menu, colors the text black/white, background white/black based on index selected.
